@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Interview Preparation Notes](README.md)
+* [Binary Search](binary-search.md)
 
 ## Sorting
 
