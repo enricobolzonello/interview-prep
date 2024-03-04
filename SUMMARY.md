@@ -4,5 +4,6 @@
 
 ## Sorting
 
-* [Page 1](sorting/page-1.md)
+* [Quick Sort](sorting/quick-sort.md)
+* [Selection Sort](sorting/selection-sort.md)
 * [Insertion Sort](sorting/insertion-sort.md)
