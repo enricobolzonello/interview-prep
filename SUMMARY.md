@@ -10,3 +10,7 @@
 * [Merge Sort](sorting/merge-sort.md)
 * [Quick Sort](sorting/quick-sort.md)
 * [Selection Sort](sorting/selection-sort.md)
+
+***
+
+* [Sliding Window](sliding-window.md)
