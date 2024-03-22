@@ -2,6 +2,7 @@
 
 * [Interview Preparation Notes](README.md)
 * [Binary Search](binary-search.md)
+* [Linked List](linked-list.md)
 
 ## Sorting
 
