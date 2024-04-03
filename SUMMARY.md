@@ -15,3 +15,8 @@
 ***
 
 * [Sliding Window](sliding-window.md)
+
+## Trees
+
+* [Introduction](trees/introduction.md)
+* [Binary Tree](trees/binary-tree.md)

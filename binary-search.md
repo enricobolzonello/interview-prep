@@ -109,7 +109,7 @@ We can exploit te monotonicity of integer values to find a solution with binary 
 
 We can use it if we can write a predicate function `valid(i)` that has **monotonicity**:&#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 The algorithm is the usual binary search, but with the difference of the `valid` function, defined based on the problem:
 
