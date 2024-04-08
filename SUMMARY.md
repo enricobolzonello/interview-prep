@@ -20,3 +20,14 @@
 
 * [Introduction](trees/introduction.md)
 * [Binary Tree](trees/binary-tree.md)
+
+***
+
+* [Strings](strings.md)
+
+## ER Scheme
+
+* [Entity](er-scheme/entity.md)
+* [Associations](er-scheme/associations.md)
+* [Weak Entities](er-scheme/weak-entities.md)
+* [Extended Entity Relationship (EER)](er-scheme/extended-entity-relationship-eer.md)

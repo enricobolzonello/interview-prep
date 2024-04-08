@@ -66,13 +66,12 @@ At this point there is a $$kL$$ separation between them. Given that the cycle's 
 
 To find the starting point of the cycle add this code:
 
-```python
-slow = head
-while slow != fast:
-    slow = slow.next
+<pre class="language-python"><code class="lang-python">slow = head
+<strong>while slow != fast:
+</strong>    slow = slow.next
     fast = fast.next.next
 return slow
-```
+</code></pre>
 
 Let's calculate the distance covered by both pointers until they met in the cycle:
 
@@ -92,6 +91,35 @@ $$
 and solving by a we obtain $$a=(y-2x)L-b$$, which means that doing $$a$$ steps is the same as doing $$y-2x$$ loops and go $$b$$ steps backwards.&#x20;
 
 Since the fast pointer is $$b$$ steps ahead of the entry of the cycle, if the fast pointer moves $$a$$ steps it will end up at the entry of the cycle. Since the slow starts at the begin of the linked list it is sufficient to make $$a$$ steps to find the cycle entry, meaning that when the two pointers meet we found the beginning of the cycle.
+
+
+
+## Find Middle Element
+
+```python
+slow, fast = head, head
+while fast and fast.next:
+    slow = slow.next
+    fast = fast.next
+mid = slow
+```
+
+Also called Two-Pointer or Tortoise-and-Hare algorithm
+
+
+
+## Reverse Linked List
+
+```python
+prev, curr = None, slow.next
+        while curr:
+            next_node = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next_node
+```
+
+
 
 
 
