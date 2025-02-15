@@ -21,6 +21,7 @@
 * [Introduction](trees/introduction.md)
 * [Binary Tree](trees/binary-tree.md)
 * [Depth First Search (DFS)](trees/depth-first-search-dfs.md)
+* [Breadth First Search (BFS)](trees/breadth-first-search-bfs.md)
 
 ***
 
