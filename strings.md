@@ -10,3 +10,17 @@ for c in word:
     mask |= (1 << (ord(c) - ord('a')))
 ```
 
+
+
+## Get the next character
+
+Given a character c in lowercase, get the next one. Can be adapted to next uppercase or even numbers (if for some absurd reasons you can't just increase it).
+
+```python
+next_char = chr((ord(c) - ord('a') + 1) % 26 + ord('a'))
+```
+
+
+
+
+

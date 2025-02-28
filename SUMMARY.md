@@ -26,6 +26,7 @@
 ***
 
 * [Strings](strings.md)
+* [Dynamic Programming](dynamic-programming.md)
 
 ## ER Scheme
 
