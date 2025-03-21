@@ -3,6 +3,9 @@
 * [Interview Preparation Notes](README.md)
 * [Binary Search](binary-search.md)
 * [Linked List](linked-list.md)
+* [Strings](strings.md)
+* [Kadane's Algorithm](kadanes-algorithm.md)
+* [Dynamic Programming](dynamic-programming.md)
 
 ## Sorting
 
@@ -22,11 +25,6 @@
 * [Binary Tree](trees/binary-tree.md)
 * [Depth First Search (DFS)](trees/depth-first-search-dfs.md)
 * [Breadth First Search (BFS)](trees/breadth-first-search-bfs.md)
-
-***
-
-* [Strings](strings.md)
-* [Dynamic Programming](dynamic-programming.md)
 
 ## ER Scheme
 
