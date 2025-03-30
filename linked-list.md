@@ -13,6 +13,10 @@ class ListNode:
         self.next_node = next_node
 ```
 
+<table><thead><tr><th>Operation</th><th>Time complexity</th><th data-hidden></th></tr></thead><tbody><tr><td>Access</td><td><span class="math">O(n)</span></td><td></td></tr><tr><td>Search</td><td><span class="math">O(n)</span></td><td></td></tr><tr><td>Insertion</td><td><span class="math">O(1)</span></td><td></td></tr><tr><td>Deletion</td><td><span class="math">O(1)</span></td><td></td></tr></tbody></table>
+
+
+
 
 
 ## Adding a Node
@@ -35,6 +39,25 @@ We can do it in two steps:
 * link `prev_node` to cur's next node `next_node`
 
 Since we have to traverse the linked list to find `prev_node`, the time complexity is `O(N)`
+
+```python
+def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
+        if not head:
+            return head
+        sentinel = ListNode(0, next=head)
+        prev, curr = sentinel, head
+        
+        while curr:
+            if curr.val == val:
+                prev.next = curr.next
+            else:
+                prev = curr
+            curr = curr.next
+        
+        return sentinel.next
+```
+
+
 
 
 
@@ -112,11 +135,11 @@ Also called Two-Pointer or Tortoise-and-Hare algorithm
 
 ```python
 prev, curr = None, slow.next
-        while curr:
-            next_node = curr.next
-            curr.next = prev
-            prev = curr
-            curr = next_node
+while curr:
+    next_node = curr.next
+    curr.next = prev
+    prev = curr
+    curr = next_node
 ```
 
 
@@ -133,7 +156,7 @@ prev, curr = None, slow.next
 
 **References:**
 
-* [https://cp-algorithms.com/others/tortoise\_and\_hare.html](https://cp-algorithms.com/others/tortoise\_and\_hare.html)
+* [https://cp-algorithms.com/others/tortoise\_and\_hare.html](https://cp-algorithms.com/others/tortoise_and_hare.html)
 * [https://leetcode.com/explore/learn/card/linked-list](https://leetcode.com/explore/learn/card/linked-list)
 
 

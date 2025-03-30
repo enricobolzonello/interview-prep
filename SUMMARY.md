@@ -3,6 +3,7 @@
 * [Interview Preparation Notes](README.md)
 * [Binary Search](binary-search.md)
 * [Linked List](linked-list.md)
+* [Doubly Linked List](doubly-linked-list.md)
 * [Strings](strings.md)
 * [Kadane's Algorithm](kadanes-algorithm.md)
 * [Dynamic Programming](dynamic-programming.md)
