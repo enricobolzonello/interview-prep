@@ -6,7 +6,10 @@
 * [Doubly Linked List](doubly-linked-list.md)
 * [Strings](strings.md)
 * [Kadane's Algorithm](kadanes-algorithm.md)
-* [Dynamic Programming](dynamic-programming.md)
+* [Dynamic Programming](dynamic-programming/README.md)
+  * [Optimal Substructure](dynamic-programming/optimal-substructure.md)
+  * [Overlapping subproblems](dynamic-programming/overlapping-subproblems.md)
+  * [Memoization](dynamic-programming/memoization.md)
 
 ## Sorting
 
