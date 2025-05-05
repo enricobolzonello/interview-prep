@@ -10,6 +10,7 @@
   * [Optimal Substructure](dynamic-programming/optimal-substructure.md)
   * [Overlapping subproblems](dynamic-programming/overlapping-subproblems.md)
   * [Memoization](dynamic-programming/memoization.md)
+  * [Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
 
 ## Sorting
 
@@ -22,6 +23,7 @@
 ***
 
 * [Sliding Window](sliding-window.md)
+* [Topological Sorting](topological-sorting.md)
 
 ## Trees
 
