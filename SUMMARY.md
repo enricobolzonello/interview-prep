@@ -5,12 +5,15 @@
 * [Linked List](linked-list.md)
 * [Doubly Linked List](doubly-linked-list.md)
 * [Strings](strings.md)
-* [Kadane's Algorithm](kadanes-algorithm.md)
+* [Sliding Window](sliding-window.md)
 * [Dynamic Programming](dynamic-programming/README.md)
   * [Optimal Substructure](dynamic-programming/optimal-substructure.md)
   * [Overlapping subproblems](dynamic-programming/overlapping-subproblems.md)
   * [Memoization](dynamic-programming/memoization.md)
   * [Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
+* [Kadane's Algorithm](kadanes-algorithm.md)
+* [Topological Sorting](topological-sorting.md)
+* [Disjoint Set Union](disjoint-set-union.md)
 
 ## Sorting
 
@@ -19,11 +22,6 @@
 * [Merge Sort](sorting/merge-sort.md)
 * [Quick Sort](sorting/quick-sort.md)
 * [Selection Sort](sorting/selection-sort.md)
-
-***
-
-* [Sliding Window](sliding-window.md)
-* [Topological Sorting](topological-sorting.md)
 
 ## Trees
 
