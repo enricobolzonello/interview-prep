@@ -11,6 +11,7 @@
   * [Overlapping subproblems](dynamic-programming/overlapping-subproblems.md)
   * [Memoization](dynamic-programming/memoization.md)
   * [Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
+* [Dijkstra's Algorithm](dijkstras-algorithm.md)
 * [Kadane's Algorithm](kadanes-algorithm.md)
 * [Topological Sorting](topological-sorting.md)
 * [Disjoint Set Union](disjoint-set-union.md)
