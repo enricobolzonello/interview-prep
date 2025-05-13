@@ -30,6 +30,7 @@
 * [Binary Tree](trees/binary-tree.md)
 * [Depth First Search (DFS)](trees/depth-first-search-dfs.md)
 * [Breadth First Search (BFS)](trees/breadth-first-search-bfs.md)
+* [Morris Inorder Traversal](trees/morris-inorder-traversal.md)
 * [Trie (Keyword Tree)](trees/trie-keyword-tree.md)
 
 ## ER Scheme
